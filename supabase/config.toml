@@ -1,0 +1,7 @@
+[functions.audit-answer]
+verify_jwt = false
+entrypoint = "./functions/audit-answer/index.ts"
+
+[functions.red-team]
+verify_jwt = false
+entrypoint = "./functions/red-team/index.ts"
